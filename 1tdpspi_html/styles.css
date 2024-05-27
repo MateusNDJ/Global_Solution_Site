@@ -1,8 +1,28 @@
+body::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0f7fa; /* Aqua Light */
-    color: #006064; /* Aqua Dark */
+    background-image: url('img/oceano.jpg');
+    background-size: cover;
+    color: #ffffff; /* White */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
 }
+
+
 
 header {
     background-color: #00838f; /* Aqua Medium */
@@ -21,7 +41,8 @@ nav a:hover {
     color: #b2ebf2; /* Aqua Accent */
 }
 
-section {
+main {
+    flex: 1 0 auto;
     margin: 20px 0;
     padding: 20px;
 }
@@ -31,4 +52,5 @@ footer {
     padding: 20px;
     text-align: center;
     color: #ffffff; /* White */
+    flex-shrink: 0;
 }
