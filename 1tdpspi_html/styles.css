@@ -46,6 +46,23 @@ main {
     margin: 20px 0;
     padding: 20px;
 }
+/* Resto do código... */
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.image-container button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
 
 footer {
     background-color: #00838f; /* Aqua Medium */
