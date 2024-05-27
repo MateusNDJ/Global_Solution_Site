@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Aqua Light */
+    color: #006064; /* Aqua Dark */
+}
+
+header {
+    background-color: #00838f; /* Aqua Medium */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* White */
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff; /* White */
+}
+
+nav a:hover {
+    color: #b2ebf2; /* Aqua Accent */
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+footer {
+    background-color: #00838f; /* Aqua Medium */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* White */
+}
