@@ -22,8 +22,6 @@ body {
     position: relative;
 }
 
-
-
 header {
     background-color: #00838f; /* Aqua Medium */
     padding: 20px;
@@ -46,7 +44,6 @@ main {
     margin: 20px 0;
     padding: 20px;
 }
-/* Resto do código... */
 
 .image-container {
     text-align: center;
@@ -54,15 +51,12 @@ main {
 }
 
 .image-container img {
-    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
 }
-
-.image-container button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 20px;
-}
-
 
 footer {
     background-color: #00838f; /* Aqua Medium */
